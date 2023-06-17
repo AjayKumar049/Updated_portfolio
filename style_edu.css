@@ -1,0 +1,125 @@
+.navbar-brand{
+    color: rgb(128, 128, 0);
+    font-size: x-large;
+    
+}
+
+span{
+    color: blueviolet;
+}
+
+.navbar-nav{
+    font-size: large;
+}
+
+/*Education Section Styling*/
+h2{
+    margin-left: 200px;
+    color: #ffa5f0;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+
+table{
+    max-width: 60%;
+    margin-left: 200px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    } 
+    
+
+
+th,td{
+    padding: .8rem;
+    font-size: 1.4rem;
+}
+
+
+
+@media (max-width:400px){
+    .navbar-brand{
+        color: rgb(128, 128, 0);
+        font-size: x-large;
+        
+    }
+    
+    span{
+        color: blueviolet;
+    }
+    
+    .navbar-nav{
+        font-size: large;
+    }
+
+    
+    h2{
+        
+        color: #ffc6a5;
+        text-decoration: underline;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: auto;
+        
+     }
+
+    table{
+       justify-content: center;
+       justify-items: center;
+       margin-right: 10px;
+       margin-left: 70px;
+       
+       
+    }
+    
+    
+   thead{
+    display: none;
+    
+   }
+
+   
+   
+   
+
+   td:first-child{
+    background-color: paleturquoise;
+    text-align: center;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   td:nth-child(2)::before{
+        content: "University";
+        
+   }
+
+   td:nth-child(3)::before{
+    content: "Per(%)";
+    }
+
+    td:nth-child(4)::before{
+        content: "YOP";
+   }
+
+   td{
+    display: block;
+    text-align: right;
+    
+    
+   }
+
+   td::before{
+    float: left;
+    font-family: bold;
+    margin-right: 3rem;
+   }
+
+   
+
+
+
+}
+
